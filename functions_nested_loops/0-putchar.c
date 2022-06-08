@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+ * main - print "_putchar"
+ * Return: 0 if success
+ */
+
+int main(void)
+{
+	printf("__putchar\n");
+	return (0);
+}
