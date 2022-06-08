@@ -1,11 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - print "_putchar"
  * Return: 0 if success
  */
 
 int main(void)
-{
-	printf("_putchar\n");
+{	
+	char e[4] = "abcd";
+
+	_putchar(e);
+
 	return (0);
+
 }
