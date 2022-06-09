@@ -10,9 +10,9 @@ int print_last_digit(int n)
 {
 	int a;
 
-	if (n == -2147483647)
+	if (n == -2147483648)
 	{
-		n = 7;
+		n = 8;
 	}
 	else if (n < 0)
 	{
