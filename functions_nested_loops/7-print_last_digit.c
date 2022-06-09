@@ -9,13 +9,10 @@
 int print_last_digit(int n)
 {
 	int a;
-	int min;
 
-	min = -2147483647;
-	if (n == min)
+	if (n == -2147483647)
 	{
-		n--;
-		n = -n;
+		n = 7;
 	}
 	else if (n < 0)
 	{
