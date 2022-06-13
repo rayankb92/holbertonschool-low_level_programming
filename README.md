@@ -1,2 +1,1 @@
-# holbertonschool-low_level_programming
-C - programming first practice
+more functions nested loops
