@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * print_diagonal - explicit
+ * @n: lenght of the diagonal
+ * Return: void
  */
 
 void print_diagonal(int n)
@@ -16,7 +16,7 @@ void print_diagonal(int n)
 	}
 	for (j = 0; j < n; j++)
 	{
-		for (i = 0; i < j; i ++)
+		for (i = 0; i < j; i++)
 		{
 			_putchar(' ');
 		}
