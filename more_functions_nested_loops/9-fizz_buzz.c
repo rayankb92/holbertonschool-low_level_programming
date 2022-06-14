@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - fizzbuzz
- * Return: 1 if success
+ * Return: 0 if success
  */
 
 int main(void)
@@ -21,11 +21,11 @@ int main(void)
 		}
 		else if ((i % 3) != 0)
 		{
-		 	printf("%d", i);
+			printf("%d", i);
 		}
 		if (i != 100)
 		printf(" ");
 	}
 	printf("\n");
-	return (1);
+	return (0);
 }
